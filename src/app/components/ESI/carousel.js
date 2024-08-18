@@ -1,5 +1,4 @@
-// eslint-disable-next-line react/no-unescaped-entities
-"use client"
+
 import React from 'react'
 import { MDBCarousel, MDBCarouselItem } from 'mdb-react-ui-kit';
 import './carousel.css'
@@ -77,7 +76,7 @@ function Carousel({text}) {
          
         </div>
         <p>Gizmo Vivobook 15 Thin and Light Laptop 15.6" FHD Display</p>
-        <h1>$1200</h1><sup>$1500</sup>
+        <h1>$1200 <sup>$1500</sup></h1>
       </div>
         </div>
         </div>
@@ -113,7 +112,7 @@ function Carousel({text}) {
         </div>
         <p>Gizmo Vivobook 15 Thin and Light Laptop 15.6" FHD Display</p>
 
-        <h1>$1200</h1><sup>$1500</sup>
+        <h1>$1200 <sup>$1500</sup></h1>
       </div>
         </div>
         </div>
