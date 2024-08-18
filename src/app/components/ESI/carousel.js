@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/no-unescaped-entities
 import React from 'react'
 import { MDBCarousel, MDBCarouselItem } from 'mdb-react-ui-kit';
 import './carousel.css'
@@ -11,7 +12,7 @@ function Carousel({text}) {
         <div className="flex justify-center items-center gap-6 mx-32">
         <div className="c-left">
           <h1 className="w-32">Limited Weekly Discount</h1>
-          <p>Enjoy the sales why you can't</p>
+          <p>Enjoy the sales why you can&apos;t</p>
         </div>
         <div className="c-right flex justify-start items-center gap-4">
         <Image src={Wrist}  width={100}

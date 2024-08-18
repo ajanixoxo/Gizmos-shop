@@ -1,5 +1,6 @@
 "use client"
-import { Html, Head, Main, NextScript } from 'next/document'
+// eslint-disable-next-line react/no-unescaped-entities
+
 import Image from "next/image";
 import Navbar from "./components/Navbar/Navbar"
 import Hero from "./components/Hero/Hero";
