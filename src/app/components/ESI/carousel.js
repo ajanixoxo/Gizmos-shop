@@ -9,7 +9,7 @@ function Carousel({text}) {
     <div className="hero">
         <MDBCarousel showControls>
       <MDBCarouselItem itemId={1} >
-        <div className="flex justify-center items-center gap-6 mx-32">
+        <div className="flex justify-center items-center gap-6 mx-32 car-left" >
         <div className="c-left">
           <h1 className="w-32">Limited Weekly Discount</h1>
           <p>Enjoy the sales why you can&apos;t</p>
@@ -47,7 +47,7 @@ function Carousel({text}) {
       
       </MDBCarouselItem>
       <MDBCarouselItem itemId={2}>
-      <div className="flex justify-center items-center gap-6 mx-32">
+      <div className="flex justify-center items-center gap-6 mx-32 car-left">
         <div className="c-left">
           <h1 className="w-32">Limited Weekly Discount</h1>
           <p>Enjoy the sales why you can&apos;t</p>
@@ -83,7 +83,7 @@ function Carousel({text}) {
         </div>
       </MDBCarouselItem>
       <MDBCarouselItem itemId={3}>
-      <div className="flex justify-center items-center gap-6 mx-32">
+      <div className="flex justify-center items-center gap-6 mx-32 car-left">
         <div className="c-left">
           <h1 className="w-32">Limited Weekly Discount</h1>
           <p>Enjoy the sales why you can&apos;t</p>
@@ -91,7 +91,7 @@ function Carousel({text}) {
         <div className="c-right flex justify-start items-center gap-4">
         <Image src={Wrist}  width={100}
       height={100} className='d-block c-img' alt='...' />
-      <div className="details">
+    <div className="details flex flex-col justify-center">
         <div className="count-down flex gap-6">
           <div className="count-box">
             <p>Days</p>
@@ -112,11 +112,10 @@ function Carousel({text}) {
          
         </div>
         <p className="watch-info">Gizmo Vivobook 15 Thin and Light Laptop 15.6" FHD Display</p>
-       
         <h1 className="price">$1200 <sup>$1500</sup></h1>
-      </div>
+   </div>
         </div>
-        </div>
+       </div>
       </MDBCarouselItem>
     </MDBCarousel>
     </div>

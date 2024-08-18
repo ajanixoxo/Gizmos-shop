@@ -1,10 +1,10 @@
-@media(max-width:987px){
+@media(max-width:807px){
 .m-wel{
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
     flex-direction: column;
-    gap: 10px;
+    gap: 0px;
 
      span{
         font-size: 7px !important;
@@ -18,6 +18,30 @@
         font-size: 7px !important;
      }
 }
+.first-nav{
+   background-color:blue;
+   color:white !important;
+  .nav1{
+     .search{
+
+     }
+     .icon{
+
+     }
+  }
+   div{
+      a{
+         color:white !important;
+      }
+   }
+   .search, .nav-item2{
+      display:none;
+   }
+   
+}
+.nav3{
+   display:none;
+}
 }
 .out{
     text-shadow:
@@ -25,4 +49,13 @@
     -3px 3px 0 #000,
     -3px -3px 0 #000,
     3px -3px 0 #000;
+}
+.mobile-menu{
+   z-index:88;
+}
+
+@media(max-width987px){
+   .call-icon{
+      font-size:10px !important;
+   }
 }

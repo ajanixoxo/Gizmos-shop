@@ -1,39 +1,97 @@
-.c-img{
-    width:30%;
+.c-img {
+    width: 40%;
 }
-.c-left{
-    width:30%
+
+.c-left {
+    width: 30%
 }
-.c-right{
-    width:70%
+
+.c-right {
+    width: 70%
 }
-.hero{
-    background-color:rgb(205, 253, 247);
-    color:black;
+
+.hero {
+    background-color: rgb(205, 253, 247);
+    color: black;
 }
-.count-box{
+
+.count-box {
     border: 1px solid rgb(97, 99, 100);
     background-color: white;
-    border-radius:5px;
-    padding:5px;
-    p{
-        font-size:8px;
-        margin: 0;
-        font-weight:600;
-        color:#ccc;
-    }
-   
+    border-radius: 5px;
+    padding: 5px;
 
-} .watch-info{
-        text-align:center;
-        width:250px;
-        font-size:15px;
-        font-weight:600;
+    p {
+        font-size: 8px;
+        margin: 0;
+        font-weight: 600;
+        color: #ccc;
     }
-    .price{
-        sup{
-            font-size:18px;
-            color:#ccc;
-            text-decoration:strike-through;
+
+
+}
+
+.watch-info {
+    text-align: center;
+    width: 250px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.price {
+    sup{
+        font-size: 18px;
+        color: #ccc;
+       text-decoration: line-through;
+    }
+}
+
+@media(max-width:807px) {
+    .car-left {
+        margin: 10px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+
+        .c-left {
+            width: 100%;
+            text-align: center;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+           
+            h1{
+                width:max-content;
+            }
+
+        }
+
+        .c-right {
+            width: 100%;
+            display: flex !important;
+            flex-direction: column !important;
+
+            .c-img {
+                width: 60% !important;
+            }
+          .count-down{
+            margin-left:20px;
+            .count-box{
+                h1{
+                    font-size:13px;
+                }
+            }
+          }
+          .price{
+            text-align:center;
+          }
+        }
+
+        .details {
+           display:flex;
+           flex-direction:column;
+           
         }
     }
+}

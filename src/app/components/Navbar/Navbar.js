@@ -7,8 +7,8 @@ import { faPager, faLocationDot, faTruck, faUser, faAngleRight, faMagnifyingGlas
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false)
   return (
-    <nav className="bg-white px-5 mt-2 m-nav w-full">
-        <div className="flex justify-between items-center font-bold text-gray-400 m-wel">
+    <nav className="bg-white  mt-2 m-nav w-full">
+        <div className="flex justify-between items-center font-bold px-4 text-gray-400 m-wel">
             <div>
             <FontAwesomeIcon icon={faPager} className="text-xs nav-i" /> <span className="text-xs">WELCOME TO WORLD WIDE GIZMOS SHOP</span>
             </div>
@@ -25,8 +25,8 @@ function Navbar() {
             </div>
             
         </div>
-    <div className="max-w-8xl mx-auto px-2 sm:px-6 lg:px-8">
-      <div className="relative flex items-center justify-between h-16">
+    <div className="max-w-8xl mx-auto my-2 px-2 sm:px-6 lg:px-8 first-nav">
+      <div className="relative flex items-center justify-between h-16 nav1">
         {/* Logo */}
         <div className="">
           <a href="#" className="text-black text-xl font-bold">Gizmos</a>
@@ -69,22 +69,21 @@ function Navbar() {
           </button>
         </div>
 
-        {/* Links */}
-        <div className="flex items-center justify-center gap-4 px-1 border sm:items-stretch sm:justify-start ">
+      
+        <div className="flex items-center justify-center gap-4 px-1 border sm:items-stretch sm:justify-start search">
         <div className="flex gap-16 justify-center items-center">
             <h1 className="text-lg mt-2">All Categories</h1>
         <FontAwesomeIcon icon={faAngleRight} />
         </div>
         <div className="border flex justify-center items-center p-2 gap-2">
-            <input type="text"  placeholder="Search for Products" className="w-72 p-1"/>
+            <input type="text"  placeholder="Search for Products" className="w-68 p-1"/>
             <FontAwesomeIcon icon={faMagnifyingGlass} className=' ' />
-
             </div>
         </div>
-        <div className="flex justify-center items-center gap-2 "> 
-         <FontAwesomeIcon icon={faHeadphones} className='text-4xl ' />
+        <div className="flex justify-center items-center gap-2 nav-item2"> 
+         <FontAwesomeIcon icon={faHeadphones} className='text-4xl call-icon ' />
          <div>
-            <h1 className="font-bold text-xl m-0">+0080 1234 56 789</h1>
+            <h1 className="font-bold text-lg m-0">+0080 1234 56 789</h1>
             <p className=" text-xs text-right">gizmos@example.com</p>
          </div>
         </div>
@@ -93,7 +92,7 @@ function Navbar() {
     </div>
 
    
-    <div className="font-bold text-xl bg-blue-700 w-full text-white flex justify-between">
+    <div className="font-bold text-xl bg-blue-700 w-full text-white flex justify-between nav3">
     <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
         <div className="!flex !justify-center items-center gap-2 px-4">
             <FontAwesomeIcon icon={faBars} />
@@ -124,12 +123,16 @@ function Navbar() {
 
     {/* Mobile Menu */}
     {isOpen && (
-      <div className="sm:hidden" id="mobile-menu">
+      <div className="sm:hidden absolute bg-white w-full z-4 mobile-menu" id="mobile-menu">
         <div className="px-2 pt-2 pb-3 space-y-1">
-          <a href="#" className="text-gray-300 hover:bg-white hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium">Home</a>
-          <a href="#" className="text-gray-300 hover:bg-white hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium">Shop</a>
-          <a href="#" className="text-gray-300 hover:bg-white hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium">About</a>
-          <a href="#" className="text-gray-300 hover:bg-white hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+          <a href="#" className="text-gray-500 hover:bg-white hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium">Home</a>
+          <a href="#" className="text-gray-500 hover:bg-white hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium">Shop</a>
+          <a href="#" className="text-gray-500 hover:bg-white hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium">About</a>
+          <a href="#" className="text-gray-500 hover:bg-white hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+          <a href="#" className="text-gray-500 hover:bg-white hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium">Login</a>
+          <a href="#" className="text-gray-500 hover:bg-white hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium">Cart</a>
+          <a href="#" className="text-gray-500 hover:bg-white hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium">Wishlist</a>
+          <input type="text" placeholder="Search for product" className="p-2 mx-2" />
         </div>
       </div>
     )}
