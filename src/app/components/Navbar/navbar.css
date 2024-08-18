@@ -1,0 +1,28 @@
+@media(max-width:987px){
+.m-wel{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;
+    gap: 10px;
+
+     span{
+        font-size: 7px !important;
+        line-height: 0px !important;
+     }
+     .m-nf{
+        display: flex !important;
+        gap: 5px!important;
+     }
+    .nav-i{
+        font-size: 7px !important;
+     }
+}
+}
+.out{
+    text-shadow:
+    3px 3px 0 #000,
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
+}

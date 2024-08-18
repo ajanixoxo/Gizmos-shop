@@ -1,0 +1,39 @@
+.c-img{
+    width:30%;
+}
+.c-left{
+    width:30%
+}
+.c-right{
+    width:70%
+}
+.hero{
+    background-color:rgb(205, 253, 247);
+    color:black;
+}
+.count-box{
+    border: 1px solid rgb(97, 99, 100);
+    background-color: white;
+    border-radius:5px;
+    padding:5px;
+    p{
+        font-size:8px;
+        margin: 0;
+        font-weight:600;
+        color:#ccc;
+    }
+   
+
+} .watch-info{
+        text-align:center;
+        width:250px;
+        font-size:15px;
+        font-weight:600;
+    }
+    .price{
+        sup{
+            font-size:18px;
+            color:#ccc;
+            text-decoration:strike-through;
+        }
+    }
