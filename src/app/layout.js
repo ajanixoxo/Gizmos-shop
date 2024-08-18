@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-page-custom-font */
+
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -11,6 +13,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          integrity="sha384-DyZ88mC6Up2uqS3BR4yO9r9kUQmv9lH8zj9x0DZo4I1F0i41CF5JU9mxljkZfpbg"
+          crossOrigin="anonymous"
+        />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+      </head>
       
       <body className={inter.className}>{children}</body>
 

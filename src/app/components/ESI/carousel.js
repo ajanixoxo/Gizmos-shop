@@ -1,4 +1,5 @@
 // eslint-disable-next-line react/no-unescaped-entities
+"use client"
 import React from 'react'
 import { MDBCarousel, MDBCarouselItem } from 'mdb-react-ui-kit';
 import './carousel.css'
