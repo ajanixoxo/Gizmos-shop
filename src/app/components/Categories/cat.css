@@ -1,0 +1,37 @@
+.cate-icon {
+    width: 30px;
+
+}
+
+.cate {
+    text-align: center !important;
+    float: center;
+
+}
+
+h6 {
+    margin: 5px !important;
+    color: gray;
+}
+
+@media(max-width:886px) {
+    .categories-container {
+        scrollbar-width: none;
+        /* For Firefox */
+        -ms-overflow-style: none;
+        /* For Internet Explorer and Edge */
+        overflow: scroll;
+
+        h6 {
+            font-size: 13px;
+            width: max-content;
+
+        }
+
+    }
+
+    .categories-container::-webkit-scrollbar {
+        display: none;
+        /* For Chrome, Safari, and Opera */
+    }
+}

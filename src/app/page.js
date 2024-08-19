@@ -8,6 +8,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 // import "@fortawesome/fontawesome-free/css/all.min.css";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
+import Banner from './components/Banner/Banner';
 
 
 export default function Home() {
@@ -21,7 +22,9 @@ export default function Home() {
       <Navbar />
       <div>
         <Hero />
+        <Banner />
       </div>
+
     </main>
   );
 }
