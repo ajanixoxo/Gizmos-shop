@@ -1,0 +1,44 @@
+.product{
+    border:1px solid grey;
+    width:20%;
+    border-radius:10px;
+    .product-img{
+        width:80%;
+        margin:20px;
+    }
+    h6{
+        color:black;
+        font-size:15px;
+        font-weight:600;
+    }
+    h4{
+        font-size:17px;
+        color:black;
+    }
+}
+.pro-icon {
+    width: 30px;
+    font-size:25px;
+    color:black;
+
+}
+@media(max-width:876px){
+    .product{
+        width:40%;
+        margin:5px;
+        h5{
+            font-size:13px;
+          
+        }
+        h6{
+            font-size:11px;
+        }
+        .pro-icon{
+            width:15px;
+            font-size:13px;
+        }
+        h4{
+            font-size:13px;
+        }
+    }
+}
