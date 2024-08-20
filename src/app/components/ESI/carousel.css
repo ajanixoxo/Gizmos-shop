@@ -45,7 +45,10 @@
        text-decoration: line-through;
     }
 }
-
+.c-img2 {
+    width: 100%;
+    
+}
 @media(max-width:807px) {
     .car-left {
         margin: 10px !important;
@@ -74,6 +77,9 @@
 
             .c-img {
                 width: 60% !important;
+            }
+            .c-img2 {
+                width: 70%;
             }
           .count-down{
             margin-left:20px;
