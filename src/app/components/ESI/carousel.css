@@ -22,10 +22,10 @@
    
    
 }
-.c-container {
-    height:50vh;
+.main-text{
+    width:100px;
+    font-weight:600;
 }
-
 .count-box {
     border: 1px solid rgb(97, 99, 100);
     background-color: white;
@@ -81,6 +81,11 @@
 
   }
 
+.c-container {
+    height:50vh;
+}
+
+
 @media(max-width:807px) {
     .car-left {
         margin: 10px !important;
@@ -97,7 +102,8 @@
             justify-content:center;
            
             h1{
-                width:max-content;
+                width:100%;
+                text-align:center;
             }
 
         }
@@ -113,9 +119,26 @@
             .c-img2 {
                 width: 70%;
             }
+            .details{
+                width:100%;
+                display:flex;
+                flex-direction:column;
+                justify-content:center;
+                align-items:center;
+                
+            }
+            .watch-info{
+                width:max-content;
+                text-align:center
+            }
           .count-down{
             margin-left:20px;
+            width:100%;
+            display:flex;
+            justify-content:center;
             .count-box{
+                width:10%;
+                text-align:center
                 h1{
                     font-size:13px;
                 }
@@ -131,5 +154,28 @@
            flex-direction:column;
            
         }
+    }
+    .c-container {
+        display:flex;
+        .c-left2{
+          
+            width:50%;
+        }
+        .c-right2{
+            width:50%;
+            position:relative;
+            /* margin-left:-13%;
+            z-index: 1; */
+          
+            img{
+             width:100%;
+             margin-top:-50px;
+            
+            }
+            
+          
+      
+        }
+      
     }
 }

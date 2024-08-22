@@ -9,7 +9,7 @@ function Featured2(){
 
     return(
          <div>
-          <h6 className="text-black m-4 font-bold">Related Product</h6>
+          <h6 className="text-black m-4 font-bold">New Arrivals</h6>
           <div className="mt-2 gap-4 flex justify-start items-start product-section ">
                 <Product name="Smart TV Keyboard and Mouse" cate="Power Banks" price="590" image={Monitor} />
                 <Product name="Smart TV Keyboard and Mouse" cate="Power Banks" price="590" image={Monitor} />

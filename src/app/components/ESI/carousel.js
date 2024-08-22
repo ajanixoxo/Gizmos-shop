@@ -11,7 +11,7 @@ function Carousel({text}) {
       <MDBCarouselItem itemId={1} >
         <div className="flex justify-center items-center gap-6 mx-32 car-left" >
         <div className="c-left">
-          <h1 className="w-32">Limited Weekly Discount</h1>
+          <h1 className="main-text">Limited Weekly Discount</h1>
           <p>Enjoy the sales why you can&apos;t</p>
         </div>
         <div className="c-right flex justify-start items-center gap-4">
@@ -49,7 +49,7 @@ function Carousel({text}) {
       <MDBCarouselItem itemId={2}>
       <div className="flex justify-center items-center gap-6 mx-32 car-left">
         <div className="c-left">
-          <h1 className="w-32">Limited Weekly Discount</h1>
+          <h1 className="main-text">Limited Weekly Discount</h1>
           <p>Enjoy the sales why you can&apos;t</p>
         </div>
         <div className="c-right flex justify-start items-center gap-4">
@@ -85,13 +85,13 @@ function Carousel({text}) {
       <MDBCarouselItem itemId={3}>
       <div className="flex justify-center items-center gap-6 mx-32 car-left">
         <div className="c-left">
-          <h1 className="w-32">Limited Weekly Discount</h1>
+          <h1 className="main-text">Limited Weekly Discount</h1>
           <p>Enjoy the sales why you can&apos;t</p>
         </div>
         <div className="c-right flex justify-start items-center gap-4">
         <Image src={Wrist}  width={100}
       height={100} className='d-block c-img' alt='...' />
-    <div className="details flex flex-col justify-center">
+    <div className="details flex flex-col justify-center items-center">
         <div className="count-down flex gap-6">
           <div className="count-box">
             <p>Days</p>

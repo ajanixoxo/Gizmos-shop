@@ -81,4 +81,23 @@ img{
             }
         }
     }
+    .banner3{
+        h1{
+            font-size:25px;
+        }
+        div{
+           width:10px;
+           right:20px;
+        }
+    }
+    .banner4{
+        background-size: 300px 300px;
+        .b4-left{
+            margin-left:0;
+            h1{
+                font-size:25px;
+            }
+        }
+
+    }
 }

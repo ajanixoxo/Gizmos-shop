@@ -9,7 +9,7 @@ function Carousel2({text}) {
     <div className="hero2  ">
         <MDBCarousel showControls>
       <MDBCarouselItem itemId={1} >
-        <div className="flex justify-center items-center car-left c-container " >
+        <div className="flex justify-center items-center  c-container " >
         <div className="c-left2">
           <div>
          
