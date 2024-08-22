@@ -1,5 +1,7 @@
 .product{
-    border:1px solid grey;
+    
+    background-color:#fcf3f3;
+    box-shadow:12px 12px 15px #bbcf;
     width:20%;
     border-radius:10px;
     .product-img{
@@ -7,13 +9,13 @@
         margin:20px;
     }
     h6{
-        color:black;
+        color:black !important;
         font-size:15px;
         font-weight:600;
     }
     h4{
         font-size:17px;
-        color:black;
+        color:black !important;
     }
 }
 .pro-icon {
