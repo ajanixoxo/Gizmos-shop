@@ -13,6 +13,17 @@
 .hero {
     background-color: rgb(205, 253, 247);
     color: black;
+    position:relative; 
+}
+.hero2 {
+    background-color: rgb(205, 253, 247);
+    color: black;
+    position:relative; 
+   
+   
+}
+.c-container {
+    height:50vh;
 }
 
 .count-box {
@@ -45,10 +56,31 @@
        text-decoration: line-through;
     }
 }
-.c-img2 {
-    width: 100%;
-    
+.c2 {
+    width:70%;
+   
+
 }
+  .c-left2{
+      width: max-content;
+       width:30%;
+  }
+  .c-right2{
+      width:50%;
+      position:relative;
+      margin-left:-13%;
+      z-index: 1;
+    
+      img{
+       width:100%;
+       margin-top:-150px;
+      
+      }
+      
+    
+
+  }
+
 @media(max-width:807px) {
     .car-left {
         margin: 10px !important;

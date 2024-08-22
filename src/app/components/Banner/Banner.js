@@ -6,6 +6,7 @@ import {faAngleRight} from '@fortawesome/free-solid-svg-icons'
 import Drone from '/public/images/Drone.png'
 import Phone from '/public/images/phone.png'
 
+
 function Banner() {
   return (
     <div className="banner-container m-4 flex justify-center gap-4 ">

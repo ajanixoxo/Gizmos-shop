@@ -11,7 +11,11 @@ import Featured from './components/FeaturedP/Featured';
 // import "@fortawesome/fontawesome-free/css/all.min.css";
 import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import Banner from './components/Banner/Banner';
-
+import Banner3 from './components/Banner/Banner3';
+import Banner4 from './components/Banner/Banner4';
+import Product from './components/Card-Product/Product';
+import Monitor from '/public/images/monitor.png';
+import Featured2 from './components/FeaturedP/Featured2'
 
 export default function Home() {
   // useEffect(() => {
@@ -25,8 +29,13 @@ export default function Home() {
       <div>
         <Hero />
         <Banner />
-        <Featured />
+        <Featured  title="Featured Product" />
         <Carousel2 />
+        <Featured  title="Related Product" />
+        <Banner3 />
+      <Featured2 />
+      <Banner4 />
+
 
 
       </div>

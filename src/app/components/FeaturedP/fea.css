@@ -1,4 +1,5 @@
 .product-nav{
+   
 
 .title{
     h1{
@@ -24,6 +25,10 @@ ul{
 }
 }
 @media(max-width:876px){
+    .product-nav{
+        display:flex !important;
+        flex-direction:column !important;
+    }
     .product-section{
         display:flex;
         width:100%;

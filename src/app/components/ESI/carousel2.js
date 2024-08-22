@@ -6,28 +6,26 @@ import Headphone from '/public/images/HeadP.png';
 import Image from 'next/image';
 function Carousel2({text}) {
   return (
-    <div className="hero">
+    <div className="hero2  ">
         <MDBCarousel showControls>
       <MDBCarouselItem itemId={1} >
-        <div className="flex justify-center items-center gap-6  car-left" >
+        <div className="flex justify-center items-center car-left c-container " >
         <div className="c-left2">
           <div>
          
-          <h1 className="">Connecting  Better than ever before</h1>
-          <p>ASUS CX70 2QF-62XPLl</p></div>
+          <h1 className="c2">Connecting easier than ever before</h1>
+          <p className="text-sm text-bold text-gray-500">ASUS CX70 2QF-62XPLl</p></div>
            <div>
-            <p>STARTING AT </p>
-              <h5>$789</h5>
+            <p className="text-sm text-bold text-gray-500">STARTING AT </p>
+              <h5 className="text-4xl text-black">$789</h5>
            </div>
         </div>
-        <div className="c-right2">
+        <div className="c-right2 ">
         <Image src={Headphone}  width={400}
       height={400} className='c-img2' alt='...' />
 
         </div>
         </div>
-    
-      
       </MDBCarouselItem>
   
     </MDBCarousel>

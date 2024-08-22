@@ -15,6 +15,53 @@ img{
     width:50%;
     border-radius:10px;
 }
+.banner3{
+    background: url(/images/b3.jpg);
+    background-position:center;
+    background-size:cover;
+    border-radius:10px;
+   
+}
+.banner4{
+    background: url(/images/earphone.png) no-repeat;
+    background-position:right;
+    background-size: 500px 400px;
+    background-color:rgb(131, 247, 247);
+    height:300px;
+
+    
+    .b4-left{
+        width:50%;
+        margin-left:200px;
+        h1{
+            width:350px;
+            font-size:35px;
+            font-weight:700;
+          
+        }
+        div{
+            margin-top:20px;
+            p{
+                margin:0;
+                font-size:12px;
+                color:#bbc;
+                font-weight:500;
+
+            }
+            h1{
+              
+                font-weight:500;
+              
+            }
+        }
+    }
+    .b4-right{
+        width:30%;
+        .img{
+            width:100%;
+        }
+    }
+}
 @media(max-width:886px){
     .banner-container{
         display:flex;
