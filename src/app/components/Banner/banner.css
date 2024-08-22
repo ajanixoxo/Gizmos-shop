@@ -62,6 +62,46 @@ img{
         }
     }
 }
+@media(max-width:406px){
+    .banner-container{
+        display:flex;
+        flex-direction:column;
+        gap:13px;
+        margin:10px;
+        .banner-left, .banner-right{
+            width:100%;
+            
+            h3{
+                width:130px;
+                font-size:15px;
+            }
+            h4{
+                width:130px;
+                font-size:15px;
+            }
+        }
+    }
+    .banner3{
+        width:max-content;
+        h1{
+            font-size:17px !important;
+        }
+        div{
+           width:10px;
+           right:0px;
+        }
+    }
+    .banner4{
+        background-size: 300px 300px;
+        .b4-left{
+            margin-left:0;
+            h1{
+                font-size:25px;
+            }
+        }
+
+    }
+}
 @media(max-width:886px){
     .banner-container{
         display:flex;

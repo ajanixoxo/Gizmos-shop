@@ -85,8 +85,7 @@
     height:50vh;
 }
 
-
-@media(max-width:807px) {
+@media(max-width:407px) {
     .car-left {
         margin: 10px !important;
         display: flex;
@@ -129,6 +128,106 @@
             }
             .watch-info{
                 width:max-content;
+                text-align:center
+            }
+          .count-down{
+            margin-left:20px;
+            width:100%;
+            display:flex;
+            justify-content:center;
+            .count-box{
+                width:max-content;
+                text-align:center;
+                h1{
+                    font-size:14px;
+                }
+            }
+          }
+          .price{
+            text-align:center;
+          }
+        }
+
+        .details {
+           display:flex;
+           flex-direction:column;
+           
+        }
+    }
+    .c-container {
+        display:flex;
+        .c-left2{
+          
+            width:50%;
+        }
+        .c2{
+            font-size:25px;
+        }
+        p{
+            font-size:13px;
+        }
+        .c-right2{
+            width:55%;
+            position:relative;
+            /* margin-left:-13%;
+            z-index: 1; */
+          
+            img{
+             width:100%;
+            
+            
+            }
+            
+          
+      
+        }
+      
+    }
+}
+@media(max-width:807px) {
+    .car-left {
+        margin: 10px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+
+        .c-left {
+            width: 100%;
+            text-align: center;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+           
+            h1{
+                width:100%;
+                text-align:center;
+            }
+           
+
+        }
+
+        .c-right {
+            width: 100%;
+            display: flex !important;
+            flex-direction: column !important;
+
+            .c-img {
+                width: 60% !important;
+            }
+            .c-img2 {
+                width: 70%;
+            }
+            .details{
+                width:100%;
+                display:flex;
+                flex-direction:column;
+                justify-content:center;
+                align-items:center;
+                
+            }
+            .watch-info{
+                width:300px;
                 text-align:center
             }
           .count-down{
