@@ -8,9 +8,9 @@ import {faArrowRightArrowLeft} from '@fortawesome/free-solid-svg-icons';
 import Monitor from '/public/images/monitor.png'
 function Product({name, cate, image, price}) {
   return (
-    <div className="product p-2 m-2">
+    <div className="product border-2 border-gray-400 rounded-md p-2 m-2">
        <div className="product-cate flex justify-between">
-        <h5>{cate}</h5>
+        <h5 className="text-[8px] font-bold md:text-[10px] ">{cate}</h5>
         <div>
             <CIcon icon={cilHeart} className="pro-icon" />
             <FontAwesomeIcon icon={faArrowRightArrowLeft} className="pro-icon" />
@@ -20,8 +20,8 @@ function Product({name, cate, image, price}) {
             <Image src={image} className="product-img" alt="" />
         </div>
         <div className="product-details">
-            <h6>{name}</h6>
-            <h4>${price}</h4>
+            <h6 className="text-black text-[13px] md:text-[14px] font-semibold">{name}</h6>
+            <h4 className="text-black text-[14px] md:text-[15px] ">${price}</h4>
         </div>
     </div>
   )

@@ -1,4 +1,4 @@
-@media(max-width:807px){
+/* @media(max-width:867px){
 .m-wel{
     display: flex !important;
     justify-content: center !important;
@@ -50,12 +50,12 @@
     -3px -3px 0 #000,
     3px -3px 0 #000;
 }
-.mobile-menu{
-   z-index:88;
-}
 
 @media(max-width987px){
    .call-icon{
       font-size:10px !important;
    }
-}
+} */
+/* .mobile-menu{
+   z-index:88;
+} */

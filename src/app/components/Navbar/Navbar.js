@@ -6,34 +6,36 @@ import { faPager, faLocationDot, faTruck, faUser, faAngleRight, faMagnifyingGlas
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false)
+
+
   return (
-    <nav className="bg-white  mt-2 m-nav w-full">
-        <div className="flex justify-between items-center font-bold px-4 text-gray-400 m-wel">
-            <div>
-            <FontAwesomeIcon icon={faPager} className="text-xs nav-i" /> <span className="text-xs">WELCOME TO WORLD WIDE GIZMOS SHOP</span>
+    <nav className="bg-white mt-2 m-nav w-full">
+        <div className="flex flex-col md:flex-row md:justify-between  items-center font-bold px-4 text-gray-400 m-wel">
+            <div className="mt-2 ">
+            <FontAwesomeIcon icon={faPager} className="text-xs nav-i" /> <span className="w-max text-[8px] md:text-xs ">WELCOME TO WORLD WIDE GIZMOS SHOP</span>
             </div>
-            <div className="flex justify-between items-center gap-4 m-nf">
-                <div>
-                    <FontAwesomeIcon icon={faLocationDot} className="text-xs nav-i  " /> <span className="text-xs">STORE LOCATION</span>
+            <div className="flex md:gap-4 gap-2 mt-2 md:mt-4">
+                <div className="flex gap-2">
+                    <FontAwesomeIcon icon={faLocationDot} className="text-xs nav-i " /><p className="w-max text-[8px] md:text-xs " > STORE LOCATION</p>
                 </div>
-                <div>
-                    <FontAwesomeIcon icon={faTruck} className="text-xs nav-i  " /> <span className="text-xs">FREE SHIPPING & RETURNS </span>
+                <div  className="flex gap-2">
+                    <FontAwesomeIcon icon={faTruck} className="text-xs nav-i  " /><p className="w-max text-[8px] md:text-xs"> FREE SHIPPING & RETURNS </p>
                 </div>
-                <div>
-                    <FontAwesomeIcon icon={faUser}  className="text-xs text-gray-600  nav-i" /> <span className="text-xs">MY ACCOUNTS </span>
+                <div  className="flex gap-2">
+                    <FontAwesomeIcon icon={faUser}  className="text-xs text-gray-600  nav-i" /><p className="w-max text-[8px] md:text-xs"> MY ACCOUNTS </p>
                 </div>
             </div>
             
         </div>
-    <div className="max-w-8xl mx-auto my-2 px-2 sm:px-6 lg:px-8 first-nav">
-      <div className="relative flex items-center justify-between h-16 nav1">
+    <div className="md:block px-2 md:mx-4 first-nav">
+      <div className="relative bg-blue-700 w-full md:bg-white flex items-center justify-between h-16 nav1">
         {/* Logo */}
         <div className="">
-          <a href="#" className="text-black text-xl font-bold">Gizmos</a>
+          <a href="#" className="text-sky-100 md:!text-black text-xl font-bold">Gizmos</a>
         </div>
 
         {/* Hamburger Menu for Mobile */}
-        <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
+        <div className="absolute inset-y-0 right-0 flex items-center md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
             type="button"
@@ -70,20 +72,20 @@ function Navbar() {
         </div>
 
       
-        <div className="flex items-center justify-center gap-4 px-1 border sm:items-stretch sm:justify-start search">
+        <div className=" hidden md:flex items-center justify-center gap-4 px-1 border border-gray-400 sm:items-stretch sm:justify-start search">
         <div className="flex gap-16 justify-center items-center">
-            <h1 className="text-lg mt-2">All Categories</h1>
-        <FontAwesomeIcon icon={faAngleRight} />
+            <h1 className="text-lg mt-2 text-black w-max">All Categories</h1>
+        <FontAwesomeIcon icon={faAngleRight} className="text-black" />
         </div>
-        <div className="border flex justify-center items-center p-2 gap-2">
-            <input type="text"  placeholder="Search for Products" className="w-68 p-1"/>
-            <FontAwesomeIcon icon={faMagnifyingGlass} className=' ' />
+        <div className="border  flex justify-center items-center p-2 gap-2">
+            <input type="text"  placeholder="Search for Products" className="w-full p-1"/>
+            <FontAwesomeIcon icon={faMagnifyingGlass} className='text-black' />
             </div>
         </div>
-        <div className="flex justify-center items-center gap-2 nav-item2"> 
-         <FontAwesomeIcon icon={faHeadphones} className='text-4xl call-icon ' />
-         <div>
-            <h1 className="font-bold text-lg m-0">+0080 1234 56 789</h1>
+        <div className=" hidden md:flex justify-center items-center gap-2 nav-item2"> 
+         <FontAwesomeIcon icon={faHeadphones} className='text-4xl call-icon text-black' />
+         <div >
+            <h1 className="font-bold text-lg m-0 text-black w-max">+0080 1234 56 789</h1>
             <p className=" text-xs text-right">gizmos@example.com</p>
          </div>
         </div>
@@ -92,11 +94,11 @@ function Navbar() {
     </div>
 
    
-    <div className="font-bold text-xl bg-blue-700 w-full text-white flex justify-between nav3">
+    <div className=" hidden md:flex font-bold text-xl bg-blue-700 w-full text-white  justify-between nav3">
     <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
         <div className="!flex !justify-center items-center gap-2 px-4">
             <FontAwesomeIcon icon={faBars} />
-            <h3 className="text-sm mt-2">Shop By Categories</h3>
+            <h3 className="text-sm mt-2 w-max">Shop By Categories</h3>
         </div>
           <div className="hidden sm:block sm:ml-6">
             <div className="flex space-x-4">
@@ -123,7 +125,7 @@ function Navbar() {
 
     {/* Mobile Menu */}
     {isOpen && (
-      <div className="sm:hidden absolute bg-white w-full z-4 mobile-menu" id="mobile-menu">
+      <div className="block md:hidden absolute bg-white w-full z-4 mobile-menu" id="mobile-menu">
         <div className="px-2 pt-2 pb-3 space-y-1">
           <a href="#" className="text-gray-500 hover:bg-white hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium">Home</a>
           <a href="#" className="text-gray-500 hover:bg-white hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium">Shop</a>

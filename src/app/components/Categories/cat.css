@@ -1,4 +1,4 @@
-.cate-icon {
+/* .cate-icon {
     width: 30px;
 
 }
@@ -14,24 +14,21 @@ h6 {
     color: gray;
 }
 
+
+} */
 @media(max-width:886px) {
     .categories-container {
         scrollbar-width: none;
-        /* For Firefox */
+      
         -ms-overflow-style: none;
-        /* For Internet Explorer and Edge */
+       
         overflow: scroll;
 
-        h6 {
-            font-size: 13px;
-            width: max-content;
-
-        }
 
     }
 
     .categories-container::-webkit-scrollbar {
         display: none;
-        /* For Chrome, Safari, and Opera */
+      
     }
 }

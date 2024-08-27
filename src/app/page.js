@@ -27,14 +27,14 @@ export default function Home() {
     <main>
       <Navbar />
       <div>
-        <Hero />
+       <Hero />
         <Banner />
-        <Featured  title="Featured Product" />
-        <Carousel2 />
+       <Featured  title="Featured Product" />
+      {/*     <Carousel2 />
         <Featured  title="Related Product" />
         <Banner3 />
       <Featured2 />
-      <Banner4 />
+      <Banner4 /> */}
 
 
 
