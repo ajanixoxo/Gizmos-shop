@@ -18,7 +18,7 @@ function Banner3() {
             10% Off when paying by debit card
         </h1>
      
-        <div className="tag absolute right-4 top-6">
+        <div className="tag absolute right-2 top-6">
         <CIcon icon={cilTag} className="text-white md:w-50" width={30} height={30} />
             </div>
 
