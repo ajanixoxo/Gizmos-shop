@@ -30,11 +30,11 @@ export default function Home() {
        <Hero />
         <Banner />
        <Featured  title="Featured Product" />
-      {/*     <Carousel2 />
+        <Carousel2 />
         <Featured  title="Related Product" />
         <Banner3 />
       <Featured2 />
-      <Banner4 /> */}
+        <Banner4 />
 
 
 

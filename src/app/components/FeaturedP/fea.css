@@ -48,3 +48,18 @@ ul{
         flex-direction:column;
     }
 } */
+
+ 
+@media(min-width:836px) {
+    .product-section{
+        scrollbar-width: none;
+        -ms-overflow-style: none;   
+        overflow: scroll;
+
+    }
+
+    .categories-container::-webkit-scrollbar {
+        display: none;
+      
+    }
+}

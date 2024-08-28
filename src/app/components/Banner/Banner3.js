@@ -11,15 +11,15 @@ import { cilHeart, cilTag} from '@coreui/icons';
 
 function Banner3() {
   return (
-   <div className="banner3 text-center p-4 relative mx-10 "
-  >
+   <div className="banner3 bg-center bg-cover rounded-[10px] mx-2 text-center p-4 relative md:mx-10 "
+  style={{background:"url(/images/b3.jpg)"}}>
     
-        <h1 className="text-white">
+        <h1 className="text-white text-lg md:text-2xl">
             10% Off when paying by debit card
         </h1>
      
         <div className="tag absolute right-4 top-6">
-        <CIcon icon={cilTag} className="text-white" width={50} height={50} />
+        <CIcon icon={cilTag} className="text-white md:w-50" width={30} height={30} />
             </div>
 
 

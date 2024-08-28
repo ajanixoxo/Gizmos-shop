@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Catergories() {
         return (
                 <div className="bg-white">
-                        <div className="categories-container   flex justify-between items-center align-center mx-4 ">
+                        <div className="categories-container flex justify-between items-center align-center mx-4 ">
                                 <div className="cate flex flex-col justify-center items-center m-2">
                                         <CIcon icon={cilCamera} className="cate-icon mb-2 w-8 md:w-8 md:w-10  text-black"  />
                                         <h6 className="text-[12px] font-semibold w-max" >Camera</h6>
