@@ -9,8 +9,8 @@ function Carousel2({ text }) {
     <div className="hero2 bg-blue-100   ">
       <MDBCarousel showControls>
         <MDBCarouselItem itemId={1} >
-          <div className="flex justify-between m-2 md:m-0 md:justify-center items-center c-container z-20" >
-            <div className=" w-1/2 md:w-[25%]">
+          <div className="flex justify-between m-2 md:m-0 md:justify-center md:gap-8 items-center c-container z-20" >
+            <div className=" w-1/2 md:w-[25%] z-10">
               <div className="">
 
                 <h1 className="c2 text-[20px] md:text-[40px] text-black w-[200px] md:w-[400px]">Connecting easier than ever before</h1>
